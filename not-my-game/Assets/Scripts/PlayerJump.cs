@@ -8,31 +8,39 @@ public class PlayerJump : MonoBehaviour
     // Start is called before the first frame update
     private Rigidbody2D rb;
     private bool Isground;
-    public LayerMask layerground;
+    [SerializeField] private LayerMask layerground;
+    [SerializeField] private LayerMask layerground_right;
+    [SerializeField] private LayerMask layerground_left;
+    [SerializeField] private float jumppower;
+    private BoxCollider2D BoxCollider2D;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        BoxCollider2D = rb.GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
     void Update()
-    {
-        
-        Debug.DrawRay(transform.position, Vector2.down, Color.blue);
-        
-        if (Physics2D.Raycast(transform.position, Vector2.down, layerground))
+    { 
+        if(Input.GetKey(KeyCode.Space) && IsGround())
         {
-            Debug.Log("TRUE");
-            Isground = true;
+            rb.AddForce(new Vector2(0, jumppower));
         }
-        else {Isground = false; Debug.Log("False"); }
-             
-        
-
-
-        if(Input.GetKey(KeyCode.Space) && Isground)
+        if (!IsGround() && IsOnWall())
         {
-            rb.AddForce(new Vector2(0, 5));
+
         }
     }
+    public bool IsGround()
+    {
+        RaycastHit2D ray = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, 0, Vector2.down, 0.1f, layerground);
+        return ray.collider!=null;
+    }
+    public bool IsOnWall()
+    {
+        RaycastHit2D ray_left = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, 0, Vector2.left, 0.1f, layerground_left);
+        RaycastHit2D ray_raight = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, 0, Vector2.right, 0.1f, layerground_right);
+        return ray_left.collider!=null || ray_raight.collider!=null;
+    }
+
 }

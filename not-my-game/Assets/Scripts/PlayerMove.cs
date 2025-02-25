@@ -16,6 +16,14 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         float a = Input.GetAxisRaw("Horizontal")*speed;
+        if (a < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+        if (a > 0) 
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
         rb.velocity = new Vector3( a, rb.velocity.y);
          
 
