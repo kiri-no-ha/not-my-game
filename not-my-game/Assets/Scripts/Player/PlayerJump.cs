@@ -13,8 +13,10 @@ public class PlayerJump : MonoBehaviour
     [SerializeField] private LayerMask layerground_left;
     [SerializeField] private float jumppower;
     private BoxCollider2D BoxCollider2D;
+    private Animator anim;
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         BoxCollider2D = rb.GetComponent<BoxCollider2D>();
     }
@@ -22,6 +24,7 @@ public class PlayerJump : MonoBehaviour
     // Update is called once per frame
     void Update()
     { 
+        anim.SetBool("Fall", !IsGround() && rb.velocity.y<0);
         if(Input.GetKey(KeyCode.Space) && IsGround())
         {
             rb.AddForce(new Vector2(0, jumppower));
