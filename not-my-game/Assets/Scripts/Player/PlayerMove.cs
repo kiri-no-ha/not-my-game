@@ -20,7 +20,7 @@ public class PlayerMove : MonoBehaviour
     {
         float a = Input.GetAxisRaw("Horizontal");
         anim.SetBool("Idle", a == 0);
-        Debug.Log(a == 0);
+        
         if (a < 0)
         {
             Vector3 newscale = transform.localScale;

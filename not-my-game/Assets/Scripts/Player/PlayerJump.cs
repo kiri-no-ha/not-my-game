@@ -8,6 +8,7 @@ public class PlayerJump : MonoBehaviour
     // Start is called before the first frame update
     private Rigidbody2D rb;
     private bool Isground;
+    private PlayerMove pl;
     [SerializeField] private LayerMask layerground;
     [SerializeField] private LayerMask layerground_right;
     [SerializeField] private LayerMask layerground_left;
@@ -19,6 +20,7 @@ public class PlayerJump : MonoBehaviour
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         BoxCollider2D = rb.GetComponent<BoxCollider2D>();
+        pl = GetComponent<PlayerMove>();
     }
 
     // Update is called once per frame
@@ -31,6 +33,34 @@ public class PlayerJump : MonoBehaviour
         }
         if (!IsGround() && IsOnWall())
         {
+            RaycastHit2D ray_left = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, 0, Vector2.left, 0.1f, layerground_left);
+            RaycastHit2D ray_raight = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, 0, Vector2.right, 0.1f, layerground_right);
+            rb.gravityScale = 0;
+            rb.velocity = new Vector2 (rb.velocity.x, 0);
+            float a = Input.GetAxisRaw("Horizontal");
+            if (ray_left.collider != null)
+            {
+                if (a > 0)
+                {
+                    rb.velocity = new Vector2(Mathf.Sign(a)*pl.speed, rb.velocity.y);
+                }
+                if (a < 0)
+                {
+                    rb.velocity = new Vector2(-Mathf.Sign(a) * pl.speed, rb.velocity.y);
+                }
+            }
+            if ((ray_left.collider != null))
+            {
+                if (a < 0)
+                {
+                    rb.velocity = new Vector2(Mathf.Sign(a) * pl.speed, rb.velocity.y);
+                }
+                if (a > 0)
+                {
+                    rb.velocity = new Vector2(-Mathf.Sign(a) * pl.speed, rb.velocity.y);
+                }
+            }
+            rb.gravityScale = 0;
 
         }
     }
