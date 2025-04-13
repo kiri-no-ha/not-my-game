@@ -15,6 +15,8 @@ public class PlayerJump : MonoBehaviour
     [SerializeField] private float jumppower;
     private BoxCollider2D BoxCollider2D;
     private Animator anim;
+    private float jump_counter;
+    public  float jump_counter_max;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -25,11 +27,14 @@ public class PlayerJump : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    { 
+    {
+        jump_counter+= Time.deltaTime;
         anim.SetBool("Fall", !IsGround() && rb.velocity.y<0);
+        
         if(Input.GetKey(KeyCode.Space) && IsGround())
         {
             rb.AddForce(new Vector2(0, jumppower));
+            jump_counter = 0;
         }
         if (!IsGround() && IsOnWall())
         {
@@ -66,8 +71,11 @@ public class PlayerJump : MonoBehaviour
     }
     public bool IsGround()
     {
-        RaycastHit2D ray = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, 0, Vector2.down, 0.1f, layerground);
-        return ray.collider!=null;
+        
+           RaycastHit2D ray = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, 0, Vector2.down, 0.1f, layerground);
+            return ray.collider != null;
+        
+        
     }
     public bool IsOnWall()
     {
