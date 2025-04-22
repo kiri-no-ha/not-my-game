@@ -23,50 +23,61 @@ public class PlayerJump : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         BoxCollider2D = rb.GetComponent<BoxCollider2D>();
         pl = GetComponent<PlayerMove>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        float a = Input.GetAxisRaw("Horizontal");
         jump_counter+= Time.deltaTime;
-        anim.SetBool("Fall", !IsGround() && rb.velocity.y<0);
-        
-        if(Input.GetKey(KeyCode.Space) && IsGround())
+
+        anim.SetBool("Fall", !IsGround() && rb.velocity.y <= 0 && a == 0);
+        anim.SetBool("Fall_Side", !IsGround() && rb.velocity.y <= 0 && a != 0);
+
+        if (Input.GetKey(KeyCode.Space) && IsGround())
         {
             rb.AddForce(new Vector2(0, jumppower));
             jump_counter = 0;
-        }
-        if (!IsGround() && IsOnWall())
-        {
-            RaycastHit2D ray_left = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, 0, Vector2.left, 0.1f, layerground_left);
-            RaycastHit2D ray_raight = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, 0, Vector2.right, 0.1f, layerground_right);
-            rb.gravityScale = 0;
-            rb.velocity = new Vector2 (rb.velocity.x, 0);
-            float a = Input.GetAxisRaw("Horizontal");
-            if (ray_left.collider != null)
+            if (a == 0)
             {
-                if (a > 0)
-                {
-                    rb.velocity = new Vector2(Mathf.Sign(a)*pl.speed, rb.velocity.y);
-                }
-                if (a < 0)
-                {
-                    rb.velocity = new Vector2(-Mathf.Sign(a) * pl.speed, rb.velocity.y);
-                }
+                anim.SetTrigger("Jump");
             }
-            if ((ray_left.collider != null))
+            else
             {
-                if (a < 0)
-                {
-                    rb.velocity = new Vector2(Mathf.Sign(a) * pl.speed, rb.velocity.y);
-                }
-                if (a > 0)
-                {
-                    rb.velocity = new Vector2(-Mathf.Sign(a) * pl.speed, rb.velocity.y);
-                }
+                anim.SetTrigger("Jump_Side");
             }
-            rb.gravityScale = 0;
+            if (!IsGround() && IsOnWall())
+            {
+                RaycastHit2D ray_left = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, 0, Vector2.left, 0.1f, layerground_left);
+                RaycastHit2D ray_raight = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, 0, Vector2.right, 0.1f, layerground_right);
+                rb.gravityScale = 0;
+                rb.velocity = new Vector2(rb.velocity.x, 0);
+                if (ray_left.collider != null)
+                {
+                    if (a > 0)
+                    {
+                        rb.velocity = new Vector2(Mathf.Sign(a) * pl.speed, rb.velocity.y);
+                    }
+                    if (a < 0)
+                    {
+                        rb.velocity = new Vector2(-Mathf.Sign(a) * pl.speed, rb.velocity.y);
+                    }
+                }
+                if ((ray_left.collider != null))
+                {
+                    if (a < 0)
+                    {
+                        rb.velocity = new Vector2(Mathf.Sign(a) * pl.speed, rb.velocity.y);
+                    }
+                    if (a > 0)
+                    {
+                        rb.velocity = new Vector2(-Mathf.Sign(a) * pl.speed, rb.velocity.y);
+                    }
+                }
+                rb.gravityScale = 0;
 
+            }
         }
     }
     public bool IsGround()

@@ -46,7 +46,7 @@ public class Healthbar : MonoBehaviour
         for(float i = healbarlen; i < HP+healbarlen; i++)
         {
 
-            healbar[(int)i].GetComponent<Animator>().SetTrigger("AddHp_trigger");
+            healbar[(int)i].GetComponent<Animator>().SetTrigger("AddHP_triger");
         }
     }
 }
