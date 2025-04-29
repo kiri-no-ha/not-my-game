@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: 3262228148773362199}
   - component: {fileID: 3830828451611042264}
   - component: {fileID: 8529206904715524446}
+  - component: {fileID: 938888075943967029}
+  - component: {fileID: 3409970018177637386}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -213,7 +215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kdthrowtime: 1
-  ThrowButton: 101
+  ThrowButton: 102
 --- !u!114 &3262228148773362199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,3 +263,31 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &938888075943967029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648069937081863025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf5ea9579f3d39489e1f64e1519d1da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Comboattackbutton: 101
+--- !u!114 &3409970018177637386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648069937081863025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1192b1958aaf0a4ca8682a7d2392332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DownButton: 115
+  AttackButton: 101
+  maxattacktime: 3

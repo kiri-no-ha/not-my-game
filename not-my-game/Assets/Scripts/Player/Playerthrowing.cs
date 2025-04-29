@@ -21,8 +21,12 @@ public class Playerthrowing : MonoBehaviour
         if (schetchik > kdthrowtime && Input.GetKey(ThrowButton))
         {
             schetchik = 0;
-            anim.SetTrigger("Throw");
+            anim.SetBool("Throw", true);
         }
-        schetchik += Time.deltaTime;
+        else
+        {
+            anim.SetBool("Throw", false);
+        }
+            schetchik += Time.deltaTime;
     }
 }

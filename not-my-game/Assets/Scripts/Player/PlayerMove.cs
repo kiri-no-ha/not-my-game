@@ -20,8 +20,8 @@ public class PlayerMove : MonoBehaviour
     {
         float a = Input.GetAxisRaw("Horizontal");
         anim.SetBool("IsIdle", a == 0);
-        anim.SetBool("Run", a != 0 && Input.GetKey(KeyCode.LeftShift) && rb.velocity.y>0);
-        anim.SetBool("Walk", a != 0 && !Input.GetKey(KeyCode.LeftShift) && rb.velocity.y > 0);
+        anim.SetBool("Run", a != 0 && Input.GetKey(KeyCode.LeftShift) && rb.velocity.y>=0);
+        anim.SetBool("Walk", a != 0 && !Input.GetKey(KeyCode.LeftShift) && rb.velocity.y >= 0);
         
         if (a < 0)
         {
