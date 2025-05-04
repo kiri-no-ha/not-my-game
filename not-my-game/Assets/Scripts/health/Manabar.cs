@@ -45,7 +45,7 @@ public class Manabar : MonoBehaviour
 
         for (float i = manabarlen; i < HP + manabarlen; i++)
         {
-
+            Debug.Log(i);
             manabar[(int)i].GetComponent<Animator>().SetTrigger("AddMP_trigger");
         }
     }

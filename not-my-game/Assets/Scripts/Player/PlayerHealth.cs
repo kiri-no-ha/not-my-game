@@ -8,13 +8,12 @@ public class PlayerHealth : MonoBehaviour
     private float maxHealth=5;
     void Start()
     {
-        health = maxHealth;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
     public void TakeDamage(float damage)
     {
@@ -26,6 +25,8 @@ public class PlayerHealth : MonoBehaviour
         {
             health -= damage;
         }
+        Debug.Log($"{health}-{damage}={health-damage}");    
+        
     }
     public void AddDamage(float addhp)
     {

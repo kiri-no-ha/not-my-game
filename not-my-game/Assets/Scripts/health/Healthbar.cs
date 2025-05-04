@@ -7,6 +7,7 @@ public class Healthbar : MonoBehaviour
     private Animator anim;
     public  GameObject[] healbar;
     public float healbarlen;
+    public float playerhealtjjj;
     public  GameObject player;
     private PlayerHealth playerHealth;
 
@@ -21,6 +22,7 @@ public class Healthbar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        playerhealtjjj = playerHealth.GetHealth;
         float r = healbarlen-playerHealth.GetHealth;
         if (r > 0)
         {
@@ -36,16 +38,14 @@ public class Healthbar : MonoBehaviour
     {
         for (int i = 0; i < HP; i++)
         {
-            
+            Debug.Log(i);
             healbar[^(i+1)].GetComponent<Animator>().SetTrigger("DellHP_trigger");
         }
     }
     public void AddHP(float HP)
     {
-        
-        for(float i = healbarlen; i < HP+healbarlen; i++)
+        for (float i = healbarlen; i < healbarlen+HP; i++)
         {
-
             healbar[(int)i].GetComponent<Animator>().SetTrigger("AddHP_triger");
         }
     }
