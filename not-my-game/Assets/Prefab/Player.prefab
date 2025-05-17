@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 7908150650882611569}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -281,7 +281,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &5399236995252496193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,6 +390,8 @@ MonoBehaviour:
   parent:
   - {fileID: 8263888583464305057}
   - {fileID: 1496172795655216179}
+  n: 0
+  n_parent: 0
 --- !u!1 &8263888583464305057
 GameObject:
   m_ObjectHideFlags: 0
