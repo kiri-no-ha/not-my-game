@@ -6,14 +6,19 @@ public class PlayerHealth : MonoBehaviour
 {
     public float health; 
     private float maxHealth=5;
+    private Vector3 start_pos;
     void Start()
     {
-        
+        start_pos = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (health <= 0)
+        {
+            Death();
+        }
     }
     public void TakeDamage(float damage)
     {
@@ -38,6 +43,11 @@ public class PlayerHealth : MonoBehaviour
         {
             health += addhp;
         }
+    }
+    public void Death()
+    {
+        health = maxHealth;
+        transform.position = start_pos;
     }
     public float GetHealth { get { return health; } }
 }
