@@ -5,8 +5,14 @@ using UnityEngine;
 public class Create_new_Game : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void CreateNewGame(string name)
+    public void Open_NewGameWindow()
+    {
+
+    }
+    public void CreateNewGame()
     {
         PlayerPrefs.DeleteAll();
+        PlayerPrefs.SetString("PlayerName", "Oleg");
+        GetComponent<SceneLoader>().LoadScen();
     }
 }

@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 9c94ccff8cf0ced4e8ee5617533891d0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_0"
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 819
+        width: 314
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48cd8dfdfe4935489d1e3327b2f8725
+      internalID: 451956998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_1"
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 824
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc314f7beaf30b46b9c997d94130490
+      internalID: -1378621787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_2"
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 823
+        width: 61
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7800e6c3ad3924bab3546fbcdffcbf
+      internalID: -99253138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_3"
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 824
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ad7156294aa7945a616139abd2c6a4
+      internalID: -1928227456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_4"
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 798
+        width: 423
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411702cf0cd574841b8be55d67531643
+      internalID: -674518409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_5"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 574
+        width: 618
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233b28295e8bbf94d92b257b99821d01
+      internalID: -710401985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_6"
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 578
+        width: 178
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19df272d625e6245b4185e4ed0e93ac
+      internalID: -1321051188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_7"
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 379
+        width: 530
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcea2af6f5de1164981e670d6adc7249
+      internalID: -1728374749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_8"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 377
+        width: 80
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e99b4505fe3ae4d8ba61994592bc69
+      internalID: -1450237737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_9"
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 379
+        width: 79
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c04e0f5b463df46a0c12d792219978
+      internalID: 1069761989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_10"
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 379
+        width: 101
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5267b28ad59f5be4dbb3aa30812f0e62
+      internalID: 2121541733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_11"
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 379
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aea3d38e6806542a00ace1c7b71896
+      internalID: 1293905088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_12"
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 379
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219c236911bc2b64086d0a24e3f95cd1
+      internalID: 1309322509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_13"
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 356
+        width: 203
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0db6887b9bbd04c9ec0bfa81456297
+      internalID: -1990198470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_14"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 76
+        width: 618
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb22452ce20bc4d4989a4ed49ed8399d
+      internalID: 241711725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438
+        Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438
+        Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435
+        \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435
+        \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435
+        \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_15"
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 86
+        width: 181
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e81d09e66c19874f8245cd61eb2974f
+      internalID: 904022495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_0": 451956998
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_1": -1378621787
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_10": 2121541733
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_11": 1293905088
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_12": 1309322509
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_13": -1990198470
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_14": 241711725
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_15": 904022495
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_2": -99253138
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_3": -1928227456
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_4": -674518409
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_5": -710401985
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_6": -1321051188
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_7": -1728374749
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_8": -1450237737
+      "\u0421\u043E\u0437\u0434\u0430\u0439 \u043C\u043D\u0435 \u0442\u0440\u0438 Toggle button \u0441 \u043D\u0430\u0434\u043F\u0438\u0441\u044F\u043C\u0438 Easy, Normal, Hard \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044F \u0432\u0441\u0435 \u0441\u043E\u0441\u0442\u043E\u0432\u043B\u044F\u044E\u0449\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 toggle button \u0432 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u043A\u0435 \u044D\u0442\u043E\u0433\u043E \u043C\u0435\u043D\u044E-Photoroom_9": 1069761989
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
