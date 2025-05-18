@@ -60,6 +60,7 @@ MonoBehaviour:
   - {fileID: 8602380714330720224}
   - {fileID: 3772771602740160882}
   healbarlen: 5
+  playerhealtjjj: 0
   player: {fileID: 0}
 --- !u!1001 &502303376364354216
 PrefabInstance:

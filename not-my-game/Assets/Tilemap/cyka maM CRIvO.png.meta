@@ -1,0 +1,1975 @@
+fileFormatVersion: 2
+guid: c8e990698cc64434ea7cc02b3415d1f3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cyka maM CRIvO_0
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba694a7cf64a31e469c155f64306e417
+      internalID: 1486293482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9a5a4f219cc204ba1c583c4a15aab9
+      internalID: -399117639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718d35acfcb3aa942a6b4449128fc1d3
+      internalID: -1100924129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_3
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb57ece5b88c3c24189a09bcd64c3ac8
+      internalID: -1036516376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_4
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2e8ae337b37c94bae3e8fad66614e7
+      internalID: 1278442407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_5
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1312
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008a105ca3ff90b4994003fcb914b43f
+      internalID: -254327692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419a53a7b1ebda74d9342fcb551fd5f2
+      internalID: -769660829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8047a3a5c42f374bb6ea45ff7577642
+      internalID: -1594894759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db8dc37a55af0a4fb1e20c5f3cbd5fd
+      internalID: 194322639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14116564e4c8f12439705db0e9784d65
+      internalID: 1948953018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_10
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9000eb95cbca1614d90c17b7112bcbe6
+      internalID: 810678425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_11
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410514d65688eb34d846d23f7e074649
+      internalID: 1033911431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_12
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb5904f60717da4990418195a4c1bdd
+      internalID: -1897668399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_13
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1184
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561bfee0570dfd141b71a8d658ca1676
+      internalID: -1196999692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8042f411694aca44fb37d330753a2489
+      internalID: -204512430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_15
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3fa5e7d7b24584f88fbc082ae86991
+      internalID: -91573437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822d4c66bcb71b447b52bb7a727e7cca
+      internalID: -348609097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb870611ac3a984c8e4b18d001277b6
+      internalID: 139700011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_18
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e1cd896e8418b4a8d28722bc6ce0ce
+      internalID: 1031198418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4a94552d00f3a48bfad933b33017c4
+      internalID: 42735557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8b92f3f4bd93f40b3c9b796908e742
+      internalID: 2085320445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_21
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1056
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b6bae7f5444d044a994358d59ed99a
+      internalID: -1598439396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_22
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93981aa14e734f746aa0141652a34d75
+      internalID: 1007059722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79767b68320af494f993b0a1bf221e01
+      internalID: -924139024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_24
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c555c89f76823b4b979c74f5deb21af
+      internalID: 1655495948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_25
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452ab0031764c0d488e0a044309beb7d
+      internalID: 1404443110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcc60284cc2531428ffdb0802502a96
+      internalID: -244011429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_27
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe3609bd95048441b9b4a85cc08ebe5
+      internalID: 1830908912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_28
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13512e2e309b8194e9ae70361ac954e7
+      internalID: 681109177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_29
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19a7e33eb85b5446b74a432727735a0
+      internalID: -1287912527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605f7e43470b89a4ea6c5abb921d0bf9
+      internalID: -1805412731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5a51a0d2ceb284dbdfde4b59ef74b9
+      internalID: -1382352234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7ba53c5af15a04b8c65c7efaa77e4d
+      internalID: 812068614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_33
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c58e22bae76f4c4985f4a5a9b0ce4d1
+      internalID: 465339507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_34
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1aea5d7107ec6f4b82490d5c8b8a436
+      internalID: 326029413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_35
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2320ffe5dcce82141814fc50cb24de9b
+      internalID: -2103232402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_36
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c5b84cb3f26624ba4b755a1241c018
+      internalID: -350056085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_37
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f1b272928bd28449c02d266d611075
+      internalID: -147893437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_38
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d29f35422816b428dca019bcff8caf
+      internalID: 1834395904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_39
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 800
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddcd255d4601ee4bb19e93e4215f8ba
+      internalID: -2126911663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320042813cf49804d892a54869cb2e86
+      internalID: 1913220339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_41
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb28c957093faa439e57e7d1fb454c8
+      internalID: -1638311263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99da4e70ec252544b3397847e6aab44
+      internalID: -2018229323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_43
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f27f82584c3814ba1063d3c042a599
+      internalID: -313704294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_44
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd66d54bf0c8fa54a8550d948d65d15d
+      internalID: 1746022193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_45
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c7ba9ea73edd74285536488c1e0570
+      internalID: -1390068823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_46
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97afd4f562e54f545ad5262cc371a206
+      internalID: 722267046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_47
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be7c4b14db97b04586c90bcd5788a97
+      internalID: -1893184320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_48
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360b354040eb68b4ca24e4457f76ff03
+      internalID: 576879736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_49
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7e88110174f1e4faf3e13097dc4c95
+      internalID: -1518167061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5d519032e5760429d916c06b814a02
+      internalID: 113204430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d04fdda08255b42853c667b5000d28
+      internalID: 458281180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21187bc0ccece741a14ed1203e091a6
+      internalID: 739149982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_53
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6239505eabf99594f80fb9678e2cbc05
+      internalID: -1843855321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_54
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9d2613c066d5c4a942c133324a9b08
+      internalID: -484359576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_55
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055f6fa4adf7d2f47bfc2a503ec1b851
+      internalID: 1176136466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_56
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1ddb7e9bcd99944a2adefacfe878b5
+      internalID: 1005275246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_57
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 544
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121f1eee61a24f243a392f27171e5d1d
+      internalID: -2072978851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_58
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eed11611849710458e215492e6e5d5d
+      internalID: 1295277871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_59
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c304d5d87cb56748943f4a953df718a
+      internalID: 1074473402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_60
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4c4699866fe294495752eb94462697
+      internalID: -1312598070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_61
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d13aadb5a13d70428f25c1208d0f130
+      internalID: -297970886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_62
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241a8ecc910561741853cf0112571e09
+      internalID: -1280432113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_63
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0839df275685c6e4e81114fcbf8b595b
+      internalID: -1698850664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_64
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38a154251d1dc448818fc18ee87935e
+      internalID: 553517324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_65
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d51bf0b952c1745b1a5c5b8e79b98e
+      internalID: 1502511757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf06f78db6d6c3458f4a22996fd9be3
+      internalID: 428693758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_67
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a6d177245136a45bfe2d249f7ac43e
+      internalID: -954806682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_68
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe0c40b2eedf6e4f996543ef5d3e105
+      internalID: -1113457231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_69
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4895d61c1defa64e91a0cd326320d80
+      internalID: -637314150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_70
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72672cb13c7ca1a4eb61a42ebb29a1eb
+      internalID: 2128270869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_71
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3263e14882e7ecb4b854b75ef3f5f01a
+      internalID: 269495479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_72
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1151304b65b01e046988a28a99985269
+      internalID: 2053004252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_73
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37af670c5fba898449febd8e9541241f
+      internalID: 1568767631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde43d33de829c94fbc11988e4b2f5bc
+      internalID: 67101451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_75
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b733a5b9baf8dd4d816a6e3b7d331b4
+      internalID: -1163218277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_76
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c52f498d8772794eab653fdb108c91e
+      internalID: 1168328081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_77
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac128af9726d884283728ec7c23bdd4
+      internalID: 534400585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_78
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22dd469d562a3c4dade298f265a689e
+      internalID: 21921112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_79
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 160
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f12a82e5d9f1f842b335e9c4a5bee8b
+      internalID: 1035928382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_80
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a53a7b983dcec44cbb24c02a6eaf98d
+      internalID: 1322364777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_81
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915bcecbf48816e4295ac6804e47e153
+      internalID: -206532684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_82
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00101fab2da951246868c1b28503cff4
+      internalID: -2017037724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyka maM CRIvO_83
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb47b88761d4c3b4491e4a71ba46e67e
+      internalID: -353453633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cyka maM CRIvO_0: 1486293482
+      cyka maM CRIvO_1: -399117639
+      cyka maM CRIvO_10: 810678425
+      cyka maM CRIvO_11: 1033911431
+      cyka maM CRIvO_12: -1897668399
+      cyka maM CRIvO_13: -1196999692
+      cyka maM CRIvO_14: -204512430
+      cyka maM CRIvO_15: -91573437
+      cyka maM CRIvO_16: -348609097
+      cyka maM CRIvO_17: 139700011
+      cyka maM CRIvO_18: 1031198418
+      cyka maM CRIvO_19: 42735557
+      cyka maM CRIvO_2: -1100924129
+      cyka maM CRIvO_20: 2085320445
+      cyka maM CRIvO_21: -1598439396
+      cyka maM CRIvO_22: 1007059722
+      cyka maM CRIvO_23: -924139024
+      cyka maM CRIvO_24: 1655495948
+      cyka maM CRIvO_25: 1404443110
+      cyka maM CRIvO_26: -244011429
+      cyka maM CRIvO_27: 1830908912
+      cyka maM CRIvO_28: 681109177
+      cyka maM CRIvO_29: -1287912527
+      cyka maM CRIvO_3: -1036516376
+      cyka maM CRIvO_30: -1805412731
+      cyka maM CRIvO_31: -1382352234
+      cyka maM CRIvO_32: 812068614
+      cyka maM CRIvO_33: 465339507
+      cyka maM CRIvO_34: 326029413
+      cyka maM CRIvO_35: -2103232402
+      cyka maM CRIvO_36: -350056085
+      cyka maM CRIvO_37: -147893437
+      cyka maM CRIvO_38: 1834395904
+      cyka maM CRIvO_39: -2126911663
+      cyka maM CRIvO_4: 1278442407
+      cyka maM CRIvO_40: 1913220339
+      cyka maM CRIvO_41: -1638311263
+      cyka maM CRIvO_42: -2018229323
+      cyka maM CRIvO_43: -313704294
+      cyka maM CRIvO_44: 1746022193
+      cyka maM CRIvO_45: -1390068823
+      cyka maM CRIvO_46: 722267046
+      cyka maM CRIvO_47: -1893184320
+      cyka maM CRIvO_48: 576879736
+      cyka maM CRIvO_49: -1518167061
+      cyka maM CRIvO_5: -254327692
+      cyka maM CRIvO_50: 113204430
+      cyka maM CRIvO_51: 458281180
+      cyka maM CRIvO_52: 739149982
+      cyka maM CRIvO_53: -1843855321
+      cyka maM CRIvO_54: -484359576
+      cyka maM CRIvO_55: 1176136466
+      cyka maM CRIvO_56: 1005275246
+      cyka maM CRIvO_57: -2072978851
+      cyka maM CRIvO_58: 1295277871
+      cyka maM CRIvO_59: 1074473402
+      cyka maM CRIvO_6: -769660829
+      cyka maM CRIvO_60: -1312598070
+      cyka maM CRIvO_61: -297970886
+      cyka maM CRIvO_62: -1280432113
+      cyka maM CRIvO_63: -1698850664
+      cyka maM CRIvO_64: 553517324
+      cyka maM CRIvO_65: 1502511757
+      cyka maM CRIvO_66: 428693758
+      cyka maM CRIvO_67: -954806682
+      cyka maM CRIvO_68: -1113457231
+      cyka maM CRIvO_69: -637314150
+      cyka maM CRIvO_7: -1594894759
+      cyka maM CRIvO_70: 2128270869
+      cyka maM CRIvO_71: 269495479
+      cyka maM CRIvO_72: 2053004252
+      cyka maM CRIvO_73: 1568767631
+      cyka maM CRIvO_74: 67101451
+      cyka maM CRIvO_75: -1163218277
+      cyka maM CRIvO_76: 1168328081
+      cyka maM CRIvO_77: 534400585
+      cyka maM CRIvO_78: 21921112
+      cyka maM CRIvO_79: 1035928382
+      cyka maM CRIvO_8: 194322639
+      cyka maM CRIvO_80: 1322364777
+      cyka maM CRIvO_81: -206532684
+      cyka maM CRIvO_82: -2017037724
+      cyka maM CRIvO_83: -353453633
+      cyka maM CRIvO_9: 1948953018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

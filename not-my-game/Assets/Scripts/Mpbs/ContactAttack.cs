@@ -5,10 +5,11 @@ using UnityEngine;
 public class ContactAttack : MonoBehaviour
 {
     public float damage;
+    private bool start_colider;
     // Start is called before the first frame update
     void Start()
     {
-        
+        start_colider = true;   
     }
 
     // Update is called once per frame
@@ -16,15 +17,29 @@ public class ContactAttack : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision != null)
         {
             if (collision.gameObject.tag == "Player")
             {
-                Debug.Log("ColiderEnter");
-                collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(damage);
-            } 
+                if (start_colider)
+                {
+                    Debug.Log("ColiderEnter");
+                    collision.gameObject.GetComponent<PlayerHealth>()?.TakeDamage(damage);
+                    start_colider=false;
+                }
+            }
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision != null)
+        {
+            if (collision.gameObject.tag == "Player")
+            {
+                start_colider=true;
+            }
         }
     }
 }

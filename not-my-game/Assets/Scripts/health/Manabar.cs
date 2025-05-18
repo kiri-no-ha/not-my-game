@@ -34,10 +34,10 @@ public class Manabar : MonoBehaviour
     }
     public void DelHP(float HP)
     {
-        for (int i = 0; i < HP; i++)
+        for (float i = manabarlen - 1; i > manabarlen - 1 - HP; i--)
         {
 
-            manabar[^(i + 1)].GetComponent<Animator>().SetTrigger("DellMP_trigger");
+            manabar[(int)i].GetComponent<Animator>().SetTrigger("DellMP_trigger");
         }
     }
     public void AddHP(float HP)
