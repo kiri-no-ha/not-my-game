@@ -19,30 +19,25 @@ public class SlowTrap : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision!=null)
         {
             if(collision.gameObject.tag == "Player")
             {
                 if (!isSlow)
                 {
-                    Debug.Log(collision.gameObject.GetComponent<PlayerMove>()!=null);
+                    collision.gameObject.GetComponent<PlayerMove>().ChangeSpeed(1/slow);
                     isSlow = true;
-                    collision.gameObject.GetComponent<PlayerMove>().ChangeSpeed(1/slow); 
                 }
             }
         }
     }
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision) 
     {
         if (collision != null)
         {
             if (collision.gameObject.tag == "Player")
             {
-                if (isSlow)
-                {
-                    isSlow = false;
-                    collision.gameObject.GetComponent<PlayerMove>().ChangeSpeed(1 / slow);
-                }
+                collision.gameObject.GetComponent<PlayerMove>().ChangeSpeed(slow);
+                isSlow = false;
             }
         }
     }
