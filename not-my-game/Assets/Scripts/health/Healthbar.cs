@@ -36,10 +36,10 @@ public class Healthbar : MonoBehaviour
     }
     public void DelHP(float HP)
     {
-        for (int i = 0; i < HP; i++)
+        for (float i= healbarlen-1; i>healbarlen-1-HP; i--)
         {
             Debug.Log(i);
-            healbar[^(i+1)].GetComponent<Animator>().SetTrigger("DellHP_trigger");
+            healbar[(int)i].GetComponent<Animator>().SetTrigger("DellHP_trigger");
         }
     }
     public void AddHP(float HP)

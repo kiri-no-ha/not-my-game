@@ -98,9 +98,10 @@ GameObject:
   - component: {fileID: 938888075943967029}
   - component: {fileID: 3409970018177637386}
   - component: {fileID: 7908150650882611569}
+  - component: {fileID: 7730464783562207759}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,7 +115,7 @@ Transform:
   m_GameObject: {fileID: 7648069937081863025}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -24.17, y: 0, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -210,6 +211,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  speed_run: 0
+  speed_walk: 0
+  x: 1
 --- !u!61 &9016061537417122222
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -281,7 +285,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &5399236995252496193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,6 +394,55 @@ MonoBehaviour:
   parent:
   - {fileID: 8263888583464305057}
   - {fileID: 1496172795655216179}
+  n: 0
+  n_parent: 0
+--- !u!114 &7730464783562207759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648069937081863025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83449117052dc9d45ab49b6bdafc3ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 0}
+  defaultText: "\u0422\u0435\u043A\u0441\u0442 \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E"
+  regionSlots:
+  - name: 
+    corner1: {fileID: 0}
+    corner2: {fileID: 0}
+    regionText: 
+  - name: 
+    corner1: {fileID: 0}
+    corner2: {fileID: 0}
+    regionText: 
+  - name: 
+    corner1: {fileID: 0}
+    corner2: {fileID: 0}
+    regionText: 
+  - name: 
+    corner1: {fileID: 0}
+    corner2: {fileID: 0}
+    regionText: 
+  - name: 
+    corner1: {fileID: 0}
+    corner2: {fileID: 0}
+    regionText: 
+  - name: 
+    corner1: {fileID: 0}
+    corner2: {fileID: 0}
+    regionText: 
+  - name: 
+    corner1: {fileID: 0}
+    corner2: {fileID: 0}
+    regionText: 
+  - name: 
+    corner1: {fileID: 0}
+    corner2: {fileID: 0}
+    regionText: 
 --- !u!1 &8263888583464305057
 GameObject:
   m_ObjectHideFlags: 0
