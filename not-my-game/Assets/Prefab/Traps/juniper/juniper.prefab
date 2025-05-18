@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4179459022578115526}
   - component: {fileID: 6293933986337337897}
-  - component: {fileID: 2198517240949144589}
   - component: {fileID: 6399354043154925522}
+  - component: {fileID: -3649419186162385382}
+  - component: {fileID: 7080491814964264445}
   m_Layer: 0
   m_Name: juniper
   m_TagString: Untagged
@@ -86,28 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2198517240949144589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7205151643237152417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4237ce063ec4997498d5874dd94814f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeRNDtr: 3.51
-  frames:
-  - {fileID: 21300000, guid: 2ddacb3690a56aa41b1eb51b8cdd985f, type: 3}
-  - {fileID: 21300000, guid: b059d27e1e9a88b4092570deb419bff1, type: 3}
-  - {fileID: 21300000, guid: eb2dac89cdc994d4e8f51f6f2a648138, type: 3}
-  framesPerSecond: 10
-  isPlaying: 1
-  speedMultiplier: 1
-  player: {fileID: 0}
-  requiredSpacePresses: 10
 --- !u!61 &6399354043154925522
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -153,3 +132,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.858355, y: 0.46724033}
   m_EdgeRadius: 0
+--- !u!114 &-3649419186162385382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7205151643237152417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4237ce063ec4997498d5874dd94814f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeRNDtr: 0
+  frames:
+  - {fileID: 21300000, guid: 2ddacb3690a56aa41b1eb51b8cdd985f, type: 3}
+  - {fileID: 21300000, guid: b059d27e1e9a88b4092570deb419bff1, type: 3}
+  - {fileID: 21300000, guid: eb2dac89cdc994d4e8f51f6f2a648138, type: 3}
+  framesPerSecond: 10
+  isPlaying: 0
+  speedMultiplier: 1
+  player: {fileID: 7648069937081863025, guid: bb4f265dcf8ed1542ba2acb784193f63, type: 3}
+  requiredSpacePresses: 10
+--- !u!114 &7080491814964264445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7205151643237152417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd8710f6d2e0e5499277fddcda257e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
