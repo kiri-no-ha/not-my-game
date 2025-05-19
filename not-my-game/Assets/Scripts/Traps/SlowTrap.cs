@@ -24,7 +24,7 @@ public class SlowTrap : MonoBehaviour
             {
                 if (!isSlow)
                 {
-                    collision.gameObject.GetComponent<PlayerMove>().ChangeSpeed(1/slow);
+                    collision.gameObject.GetComponent<PlayerMove>()?.ChangeSpeed(1/slow);
                     isSlow = true;
                 }
             }
@@ -36,7 +36,7 @@ public class SlowTrap : MonoBehaviour
         {
             if (collision.gameObject.tag == "Player")
             {
-                collision.gameObject.GetComponent<PlayerMove>().ChangeSpeed(slow);
+                collision.gameObject.GetComponent<PlayerMove>()?.ChangeSpeed(slow);
                 isSlow = false;
             }
         }

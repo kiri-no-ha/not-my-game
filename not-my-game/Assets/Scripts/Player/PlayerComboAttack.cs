@@ -10,6 +10,8 @@ public class PlayerComboAttack : MonoBehaviour
     private float time;
     public KeyCode Comboattackbutton;
     private bool firstattack;
+    public float damage;
+    
     void Start()
     {
         firstattack = true;
@@ -26,6 +28,7 @@ public class PlayerComboAttack : MonoBehaviour
         {
             anim.SetInteger("Combo_Attack", ++scet);
             firstattack= false;
+            
         }
         else
         {
@@ -33,6 +36,19 @@ public class PlayerComboAttack : MonoBehaviour
             scet = 0;
             anim.SetInteger("Combo_Attack", scet);
             firstattack= true;
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision!=null)
+        {
+            if (collision.gameObject.tag == "Enemy")
+            {
+                if (Input.GetKey(Comboattackbutton))
+                {
+                    collision.gameObject.GetComponent<EnemyHealth>().GiveDamage(damage);
+                }
+            }
         }
     }
 }

@@ -6,7 +6,7 @@ public class Player_Pausa : MonoBehaviour
 {
     public bool Ispaused;
     public GameObject paused_menu;
-    public float schet;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +21,6 @@ public class Player_Pausa : MonoBehaviour
         {
             Debug.Log(Ispaused);
             Ispaused = true;
-            schet = 0;
         }
 
 
@@ -42,7 +41,7 @@ public class Player_Pausa : MonoBehaviour
     }
     public void Change_paused()
     {
-        Ispaused = false;
+        Ispaused = !Ispaused;
     }
 
 }

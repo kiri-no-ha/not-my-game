@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 7908150650882611569}
   - component: {fileID: 7730464783562207759}
   - component: {fileID: 8624482168064706267}
+  - component: {fileID: 1095362699619120836}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -361,6 +362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Comboattackbutton: 101
+  damage: 0
 --- !u!114 &3409970018177637386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,6 +460,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ispaused: 0
   paused_menu: {fileID: 0}
+--- !u!114 &1095362699619120836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648069937081863025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2218962dd9c35a048bd8781ded5cb37e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackColdown: 2
+  spawnsegment: {fileID: 8427282023053870805, guid: 5adc016b63f45fa4cbc0cffa50552626, type: 3}
+  parent: {fileID: 8263888583464305057}
 --- !u!1 &8263888583464305057
 GameObject:
   m_ObjectHideFlags: 0
