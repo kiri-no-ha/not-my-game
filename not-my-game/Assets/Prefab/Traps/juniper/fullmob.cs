@@ -116,8 +116,15 @@ namespace anim
                 if (player != null)
                 {
                     player.transform.position = playerFixedPos;
-                }
 
+                    PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+                    if (playerHealth != null && playerHealth.GetHealth < 1)
+                    {
+                        Debug.Log("Здоровье игрока ниже 1. Освобождаем игрока.");
+                        ReleasePlayer();
+                        return; 
+                    }
+                }
                 if (Input.GetKeyDown(KeyCode.W))
                 {
                     currentSpacePressCount++;
@@ -128,5 +135,6 @@ namespace anim
                 }
             }
         }
+
     }
 }
