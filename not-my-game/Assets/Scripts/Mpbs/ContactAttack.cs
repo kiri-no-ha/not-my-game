@@ -6,6 +6,7 @@ public class ContactAttack : MonoBehaviour
 {
     public float damage;
     private bool start_colider;
+    private bool kys;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,8 +27,9 @@ public class ContactAttack : MonoBehaviour
                 if (start_colider)
                 {
                     Debug.Log("ColiderEnter");
-                    collision.gameObject.GetComponent<PlayerHealth>()?.TakeDamage(damage);
+                    collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(damage);
                     start_colider=false;
+                    kys = false;
                 }
             }
         }
@@ -39,6 +41,7 @@ public class ContactAttack : MonoBehaviour
             if (collision.gameObject.tag == "Player")
             {
                 start_colider=true;
+                
             }
         }
     }

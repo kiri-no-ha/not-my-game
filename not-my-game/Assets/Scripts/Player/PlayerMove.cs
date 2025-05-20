@@ -13,7 +13,7 @@ public class PlayerMove : MonoBehaviour
     public float speed_run;
     public float speed_walk;
     private bool RUN;
-    public float x=1;
+    public float x;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

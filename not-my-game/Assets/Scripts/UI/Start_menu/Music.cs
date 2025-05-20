@@ -17,7 +17,8 @@ public class Music : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(musicButton.IsMusic);
+        Debug.Log(musicSource.enabled);
         musicSource.enabled = musicButton.IsMusic;
     }
     

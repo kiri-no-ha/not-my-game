@@ -198,7 +198,7 @@ MonoBehaviour:
   layerground_left:
     serializedVersion: 2
     m_Bits: 0
-  jumppower: 20
+  jumppower: 40
   jump_counter_max: 0
 --- !u!114 &2694652893013237723
 MonoBehaviour:
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackColdown: 2
   spawnsegment: {fileID: 8427282023053870805, guid: 5adc016b63f45fa4cbc0cffa50552626, type: 3}
-  parent: {fileID: 8263888583464305057}
+  parent: {fileID: 7252814915455480987}
 --- !u!1 &8263888583464305057
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,6 +24,7 @@ public class SlowTrap : MonoBehaviour
             {
                 if (!isSlow)
                 {
+                    Debug.Log(1 / slow);
                     collision.gameObject.GetComponent<PlayerMove>()?.ChangeSpeed(1/slow);
                     isSlow = true;
                 }
