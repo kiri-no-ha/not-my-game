@@ -10,13 +10,13 @@ public class ContactAttack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        start_colider = true;   
+        start_colider = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -24,24 +24,12 @@ public class ContactAttack : MonoBehaviour
         {
             if (collision.gameObject.tag == "Player")
             {
-                if (start_colider)
-                {
-                    Debug.Log("ColiderEnter");
-                    collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(damage);
-                    start_colider=false;
-                    kys = false;
-                }
-            }
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision != null)
-        {
-            if (collision.gameObject.tag == "Player")
-            {
-                start_colider=true;
-                
+
+                Debug.Log("ColiderEnter");
+                collision.gameObject.GetComponent<PlayerHealth>()?.TakeDamage(damage);
+                start_colider = false;
+                kys = false;
+
             }
         }
     }

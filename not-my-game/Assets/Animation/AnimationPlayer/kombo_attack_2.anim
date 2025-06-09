@@ -24,33 +24,33 @@ AnimationClip:
       value: {fileID: 21300000, guid: 7655b43898adf4046a280a306eb47dcf, type: 3}
     - time: 0.083333336
       value: {fileID: 21300000, guid: 75f6d35bcf44f8549baa544c2bb26b98, type: 3}
-    - time: 0.18333334
+    - time: 0.2
       value: {fileID: 21300000, guid: 0655a733700d5d646ba5a663884bf4f3, type: 3}
-    - time: 0.26666668
+    - time: 0.28333333
       value: {fileID: 21300000, guid: 469a32bea3418b84a91ef78ba8d8e28a, type: 3}
-    - time: 0.35
+    - time: 0.36666667
       value: {fileID: 21300000, guid: bbfe4f3c28f41a049b3cd62a48e19f9d, type: 3}
-    - time: 0.45
+    - time: 0.46666667
       value: {fileID: 21300000, guid: 00031eb69e9fe65438c483ea4f4b0e24, type: 3}
-    - time: 0.53333336
+    - time: 0.56666666
       value: {fileID: 21300000, guid: 699318c657e290a4b9936eaa60b88973, type: 3}
-    - time: 0.6166667
+    - time: 0.65
       value: {fileID: 21300000, guid: 5c5f14f39ff66da4f9df35f0fc2f9f2c, type: 3}
-    - time: 0.71666664
+    - time: 0.75
       value: {fileID: 21300000, guid: a37a1ff4d92da3c4586597f1dc333660, type: 3}
-    - time: 0.8
+    - time: 0.8333333
       value: {fileID: 21300000, guid: 4ca2a616614cf9247867df2dc05d1f8a, type: 3}
-    - time: 0.8833333
+    - time: 0.93333334
       value: {fileID: 21300000, guid: 39fbca43cf7cb34439b836c4b092e9b4, type: 3}
-    - time: 0.98333335
+    - time: 1.0333333
       value: {fileID: 21300000, guid: d2d5318de8dd33f4e9cd0b3bc5049861, type: 3}
-    - time: 1.0666667
+    - time: 1.1166667
       value: {fileID: 21300000, guid: c9aef25ad14e527478034ff80aaf552a, type: 3}
-    - time: 1.15
+    - time: 1.2
       value: {fileID: 21300000, guid: c04ff9a9ded4356449709227599967aa, type: 3}
-    - time: 1.25
+    - time: 1.3166667
       value: {fileID: 21300000, guid: 2c56de08d0ba6e742b04d19e2cc39607, type: 3}
-    - time: 1.3333334
+    - time: 1.4
       value: {fileID: 21300000, guid: b671aba886a5a80458414f2b11798bf7, type: 3}
     attribute: m_Sprite
     path: 
@@ -95,7 +95,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.35
+    m_StopTime: 1.4166666
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -114,4 +114,18 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.8333333
+    functionName: DealDamage
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.3333334
+    functionName: DealDamage
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

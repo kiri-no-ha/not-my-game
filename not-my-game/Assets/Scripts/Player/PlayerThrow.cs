@@ -27,7 +27,7 @@ public class PlayerThrow : MonoBehaviour
     }
     public void Attack()
     {
-        if (playermana.mana - 1 > 0)
+        if (playermana.mana - 1 >= 0)
         {
             playermana.TakeMana(1);
             SpawnElem();

@@ -2,11 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class EnemyHealth : Health
 {
     // Start is called before the first frame update
-    public float health;
-    public float maxHealth;
     void Start()
     {
         
@@ -20,23 +18,6 @@ public class EnemyHealth : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    public void GiveDamage(float damage)
-    {
-        if (health - damage > 0)
-        {
-            health -= damage;
-        }
-        else { health = 0; }
-    }
-    public void AddHealth(float healthh)
-    {
-        if (health >= maxHealth)
-        {
-            health = maxHealth;
-        }
-        else
-        {
-            health += healthh;
-        }
-    }
+   
+    
 }
