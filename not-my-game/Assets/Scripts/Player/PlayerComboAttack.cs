@@ -10,6 +10,10 @@ public class PlayerComboAttack : MonoBehaviour
     private float time;
     public KeyCode Comboattackbutton;
     private bool firstattack;
+    public float damage;
+    public Transform attackzona;
+    public float attack_rad = 1f;
+
     void Start()
     {
         firstattack = true;
@@ -22,17 +26,50 @@ public class PlayerComboAttack : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        if (Input.GetKey(Comboattackbutton) && (time<3 || firstattack) )
+        if (Input.GetKey(Comboattackbutton) && (time < 3 || firstattack))
         {
             anim.SetInteger("Combo_Attack", ++scet);
-            firstattack= false;
+            firstattack = false;
+
         }
         else
         {
             time = 0;
             scet = 0;
             anim.SetInteger("Combo_Attack", scet);
-            firstattack= true;
+            firstattack = true;
         }
     }
+    public void DealDamage()
+    {
+        // Проверяем, есть ли враг перед игроком
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(
+            transform.position,
+            attack_rad, // Радиус атаки
+            LayerMask.GetMask("Enemy") // Слой врагов
+        );
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            Debug.Log("Попал");
+            enemy.GetComponent<EnemyHealth>().TakeDamage(damage);
+        }
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawSphere(attackzona.position, attack_rad);
+    }
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision != null)
+    //    {
+    //        if (collision.gameObject.tag == "Enemy")
+    //        {
+    //            if (Input.GetKey(Comboattackbutton))
+    //            {
+    //                collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(damage);
+    //            }
+    //        }
+    //    }
+    //}
 }

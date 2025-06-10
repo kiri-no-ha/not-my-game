@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6399354043154925522}
   - component: {fileID: -3649419186162385382}
   - component: {fileID: 7080491814964264445}
-  m_Layer: 0
+  - component: {fileID: 5775464471112127540}
+  m_Layer: 8
   m_Name: juniper
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,7 +120,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.068609476, y: -0.40637982}
+  m_Offset: {x: -0.13884592, y: -0.3896315}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -130,7 +131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.858355, y: 0.46724033}
+  m_Size: {x: 1.2429128, y: 0.50073695}
   m_EdgeRadius: 0
 --- !u!114 &-3649419186162385382
 MonoBehaviour:
@@ -144,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4237ce063ec4997498d5874dd94814f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRNDtr: 0
+  timeRNDtr: 1
   frames:
   - {fileID: 21300000, guid: 2ddacb3690a56aa41b1eb51b8cdd985f, type: 3}
   - {fileID: 21300000, guid: b059d27e1e9a88b4092570deb419bff1, type: 3}
@@ -167,3 +168,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+--- !u!114 &5775464471112127540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7205151643237152417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7f790e5a5c10647b1fcd2c5412d001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 2
+  maxHealth: 2

@@ -13,7 +13,7 @@ public class PlayerJump : MonoBehaviour
     [SerializeField] private LayerMask layerground_right;
     [SerializeField] private LayerMask layerground_left;
     [SerializeField] private float jumppower;
-    private BoxCollider2D BoxCollider2D;
+    private CapsuleCollider2D BoxCollider2D;
     private Animator anim;
     private float jump_counter;
     public  float jump_counter_max;
@@ -21,7 +21,7 @@ public class PlayerJump : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        BoxCollider2D = rb.GetComponent<BoxCollider2D>();
+        BoxCollider2D = rb.GetComponent<CapsuleCollider2D>();
         pl = GetComponent<PlayerMove>();
 
     }
