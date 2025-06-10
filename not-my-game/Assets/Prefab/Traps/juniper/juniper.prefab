@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -3649419186162385382}
   - component: {fileID: 7080491814964264445}
   - component: {fileID: 5775464471112127540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: juniper
   m_TagString: Enemy
   m_Icon: {fileID: 0}

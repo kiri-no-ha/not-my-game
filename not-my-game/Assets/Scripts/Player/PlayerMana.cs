@@ -18,7 +18,7 @@ public class PlayerMana : MonoBehaviour
     }
     public void TakeMana(float minusmana)
     {
-        if (mana - minusmana < 0)
+        if (mana - minusmana <=0)
         {
             mana = 0;
         }
