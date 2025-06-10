@@ -24,13 +24,12 @@ public class ContactAttack : MonoBehaviour
         {
             if (collision.gameObject.tag == "Player")
             {
-                if (start_colider)
-                {
+                
                     Debug.Log("ColiderEnter");
-                    collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(damage);
+                    collision.gameObject.GetComponent<PlayerHealth>()?.TakeDamage(damage);
                     start_colider=false;
                     kys = false;
-                }
+                
             }
         }
     }
